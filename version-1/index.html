@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Oyindamola</h1>
+        <div id="container">
+            <input type="checkbox"  id="sidebar-active">
+            <label for="sidebar-active" id="open-button-sidebar">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </label>
+            <div class="links">
+                <label for="sidebar-active" id="close-button-sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </label>
+                <a href="#" onclick="document.getElementById('sidebar-active').checked=false">About me</a>
+                <a href="#" onclick="document.getElementById('sidebar-active').checked=false">Services</a>
+                <a href="#" onclick="document.getElementById('sidebar-active').checked=false">Contact me</a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div id="text-container">
+            <h1>Hi, I am Oyindamola Bakare</h1>
+            <p>Frontend Developer</p>
+            <div id="btns">
+                <button>Download CV</button>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div id="img-container">
+            <img src="../assets/image.png" alt="picture">
+        </div>
+    </header>
+    <main>
+        <div id="about">
+            <h1>About</h1>
+            <p id="paragraph">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident
+            </p>
+            <div id="social-links">
+                <div class="box">
+                    <img src="../assets/group.png" alt="groupe-1">
+                    <h2>Full Name</h2>
+                    <p>Your name goes here</p>
+                </div>
+                <div class="box">
+                    <img src="../assets/group.png" alt="groupe-1">
+                    <h2>Email Address</h2>
+                    <p>Your email goes here</p>
+                </div>
+                <div class="box">
+                    <img src="../assets/group.png" alt="groupe-1">
+                    <h2>Twitter</h2>
+                    <p>Your account goes here</p>
+                </div>
+                <div class="box">
+                    <img src="../assets/group.png" alt="groupe-1">
+                    <h2>Phone</h2>
+                    <p>Your number goes here</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
